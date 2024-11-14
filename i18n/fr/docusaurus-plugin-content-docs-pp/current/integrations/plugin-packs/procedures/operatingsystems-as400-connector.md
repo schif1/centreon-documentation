@@ -155,6 +155,21 @@ yum install centreon-plugin-Operatingsystems-AS400-daemon
 
 Un même connecteur peut servir de relais entre plusieurs hôtes et plusieurs systèmes AS400. 
 
+### Ports
+List of ports between the connector and the AS400
+
+| Standard | SSL |
+|:---------|:----|
+| 446	   | 448 |
+| 449	   |  |
+| 8470	   | 9470 |
+| 8471	   | 9471 |
+| 8472	   | 9472 |
+| 8473	   | 9473 |
+| 8474	   | 9474 |
+| 8475	   | 9475 |
+| 8476	   | 9476 |
+
 ## Installer le connecteur de supervision
 
 ### Pack
